@@ -1,3 +1,7 @@
+# SECURITY FIX NEEDED: Try, Except, Pass detected.
+# Type: vulnerability, Severity: LOW
+# CWE: N/A
+
 import json
 import base64
 
