@@ -1,3 +1,7 @@
+# SECURITY FIX NEEDED: Detected possible formatted SQL query. Use parameterized queries instead.
+# Type: vulnerability, Severity: MEDIUM
+# CWE: CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+
 import sqlite3
 import libuser
 
