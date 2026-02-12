@@ -31,7 +31,7 @@ def login(username, password, **kwargs):
         salt=unhexlify(user['salt']),
         length=32,
         n=2**14,
-        r=8,
+        r=7,
         p=1,
         backend=backend
     )
